@@ -1,0 +1,43 @@
+.app-header{
+    background-color: #263238;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    height:30px;
+}
+
+
+.app-logo{
+    color: #fff;
+    font-size: 18px;
+    float: left;
+}
+
+
+.formInput{
+    margin-right: 40px;
+}
+
+
+
+.header-searchbox{
+
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: #c0c0c0;
+    border-radius: 4px;
+    
+}
+
+.header-searchbox-off{
+    margin-left: auto;
+    
+}
+
+.horizontal-line{
+    border-bottom: groove;
+    width: 80%;
+    margin-left: 10%;
+}

@@ -1,0 +1,126 @@
+.profile-container {
+  width: 80%;
+  margin: 2% auto 2% auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.profile-picture-section {
+  max-width: 30%;
+  margin-left: 10%;
+}
+
+.profile-picture {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.details-section {
+  width: 70%;
+  margin-left: 2%;
+}
+
+.stats-section {
+  padding-top: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dispNone {
+  display: none;
+}
+
+.dispBlock {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.images-grid-list {
+  margin-top: 3%;
+}
+
+.grid-list-main {
+  transform: translateZ(0);
+  cursor: pointer;
+}
+
+.image-section {
+  width: 50%;
+  height: 100%;
+  float: left;
+
+}
+
+.image-post {
+  width: 100%;
+  height: 100%;
+}
+
+.right-section {
+  width: 48%;
+  margin: 1%;
+  float: right;
+}
+
+hr {
+  width: 95%;
+  margin-bottom: 2%;
+}
+.content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.image-hash-tag {
+  margin-top: 0;
+  font-weight: 500;
+  color: #73B8FD;
+}
+
+.likes-add-comment-section {
+  position: absolute;
+  width: 47%;
+  bottom: 5%; 
+}
+
+
+.comments-section {
+  margin-top: 10px;
+  position: relative;
+}
+
+.comment-username {
+  display: inline;
+  font-weight: bold;
+}
+
+.comment-text {
+  display: inline;
+  color: black;
+}
+
+.likes-count {
+  display: inline;
+  padding-left: 10px;
+}
+
+.add-comments-section {
+  width: 95%;
+  margin-top: 2%;
+}
+
+.comments-input {
+  width: 100%;
+  margin-right: 10px;
+}
